@@ -1,0 +1,7 @@
+Microsoft.Extensions.* Libraries
+License: MIT License
+
+Various helper libraries for logging, configuration, dependency injection, and more.
+Full license texts are included in each respective NuGet package.
+
+[Refer to NuGet package LICENSE/NOTICE files for details]
