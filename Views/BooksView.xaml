@@ -1,0 +1,19 @@
+﻿<Window x:Class="LibraryTrackerApp.Views.BooksView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Books" Height="500" Width="600">
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBlock Text="Title"/>
+            <TextBox x:Name="TitleTextBox"/>
+            <TextBlock Text="Author"/>
+            <TextBox x:Name="AuthorTextBox"/>
+            <TextBlock Text="ISBN"/>
+            <TextBox x:Name="ISBNTextBox"/>
+            <Button Content="Add Book" Width="120" Margin="0,10,0,0" Click="AddBook_Click"/>
+        </StackPanel>
+
+        <DataGrid x:Name="BooksGrid" Margin="0,180,0,0" AutoGenerateColumns="True"
+                  SelectionMode="Single" IsReadOnly="True"/>
+    </Grid>
+</Window>
